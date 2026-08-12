@@ -1,8 +1,18 @@
-# macfarlan.net
+# macfarlan
 
-Source for [macfarlan.net](https://www.macfarlan.net), a lightweight personal landing page focused on product, operations, and applied AI in emerging health markets.
+Source for the **macfarlan** personal brand website, published at [macfarlan.net](https://www.macfarlan.net). The landing page presents product leadership experience across healthcare and consumer technology, with an emphasis on telehealth, digital health, regulated markets, and applied AI.
 
 The site is intentionally dependency-free: it is plain HTML and CSS, requires no build step, and is served by Vercel.
+
+## Brand and content
+
+- Display the brand as **macfarlan**. Reserve `macfarlan.net` for the web domain, email address, repository name, and other technical identifiers.
+- Headline: “Product leader in healthcare and consumer technology.”
+- The biography highlights product delivery at scale, building product functions, leadership in regulated markets, cross-functional execution, and service as a retired U.S. Army officer.
+- Contact and LinkedIn are the page's primary actions.
+- The footer contains the **macfarlan** copyright and the motto *Primum servimus*; it does not repeat the primary action links.
+
+All visible page copy and metadata are maintained in `index.html`.
 
 ## Technology
 
