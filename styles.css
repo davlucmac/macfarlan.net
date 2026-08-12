@@ -1,11 +1,11 @@
 :root {
   color-scheme: dark;
-  --background: #141514;
-  --foreground: #f2f0e9;
-  --muted: #d0ccc2;
-  --soft: #9a958b;
-  --line: rgba(242, 240, 233, 0.18);
-  --accent: #8f9866;
+  --background: #1c1e1d;
+  --foreground: #f3f0e8;
+  --muted: #cbc6bb;
+  --soft: #a39e94;
+  --line: rgba(243, 240, 232, 0.14);
+  --accent: #9ba47a;
   --max-width: 720px;
 }
 
@@ -21,7 +21,11 @@ body {
   min-height: 100vh;
   margin: 0;
   background:
-    radial-gradient(circle at 50% 18%, rgba(255, 255, 255, 0.05), transparent 26%),
+    radial-gradient(
+      circle at 50% 18%,
+      rgba(243, 240, 232, 0.035),
+      transparent 28%
+    ),
     var(--background);
   color: var(--foreground);
   font-family:
@@ -132,7 +136,7 @@ h1 span {
 }
 
 .actions a:hover {
-  color: #ffffff;
+  color: var(--foreground);
   text-decoration-color: var(--foreground);
 }
 
